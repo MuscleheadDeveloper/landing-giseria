@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/landing-giseria/static/js/main.2a1ffff6.chunk.js",
+    "main.js.map": "/landing-giseria/static/js/main.2a1ffff6.chunk.js.map",
+    "runtime-main.js": "/landing-giseria/static/js/runtime-main.2b1093c4.js",
+    "runtime-main.js.map": "/landing-giseria/static/js/runtime-main.2b1093c4.js.map",
+    "static/css/2.f8c4e766.chunk.css": "/landing-giseria/static/css/2.f8c4e766.chunk.css",
+    "static/js/2.6c482a7f.chunk.js": "/landing-giseria/static/js/2.6c482a7f.chunk.js",
+    "static/js/2.6c482a7f.chunk.js.map": "/landing-giseria/static/js/2.6c482a7f.chunk.js.map",
+    "index.html": "/landing-giseria/index.html",
+    "static/css/2.f8c4e766.chunk.css.map": "/landing-giseria/static/css/2.f8c4e766.chunk.css.map",
+    "static/js/2.6c482a7f.chunk.js.LICENSE.txt": "/landing-giseria/static/js/2.6c482a7f.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/landing-giseria/static/media/fa-solid-900.efbd5d20.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b1093c4.js",
+    "static/css/2.f8c4e766.chunk.css",
+    "static/js/2.6c482a7f.chunk.js",
+    "static/js/main.2a1ffff6.chunk.js"
+  ]
+}
