@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useHistory } from "react-router-dom";
+import "./Landing.css";
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
 import Aos from "aos";
@@ -10,7 +10,7 @@ export default function Landing() {
     return () => {
       Aos.init({
         delay: 200,
-        duration: 1200,
+        duration: 800,
         once: false,
       });
     };
@@ -19,11 +19,11 @@ export default function Landing() {
   return (
     <>
       <Navbar transparent />
-      <main>
+      <main className="relative">
         <div
-          className="relative pt-16 pb-32 flex content-center items-center justify-center"
+          className="relative pt-16 flex bg-gray-900 content-center items-center justify-center"
           style={{
-            minHeight: "75vh",
+            minHeight: "85vh",
           }}
         >
           <div
@@ -56,15 +56,27 @@ export default function Landing() {
           </div>
         </div>
 
-        <section
-          data-aos-duration="800"
-          data-aos="fade-right"
-          className="pb-20 bg-gray-300 -mt-24"
-        >
+        <section className="pb-20 relative">
+          <div className="custom-shape-divider-top-1643890315">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                className="shape-fill"
+              ></path>
+            </svg>
+          </div>
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  data-aos="fade-left"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
@@ -79,7 +91,10 @@ export default function Landing() {
               </div>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  data-aos="fade-up"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                       <i className="fas fa-retweet"></i>
@@ -93,8 +108,11 @@ export default function Landing() {
                 </div>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div className="pt-8 w-full md:w-4/12 px-4 text-center">
+                <div
+                  data-aos="fade-right"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                       <i className="fas fa-fingerprint"></i>
@@ -110,7 +128,10 @@ export default function Landing() {
             </div>
 
             <div className="flex flex-wrap items-center mt-32">
-              <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <div
+                data-aos="zoom-in-down"
+                className="w-full md:w-5/12 px-4 mr-auto ml-auto"
+              >
                 <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
@@ -128,8 +149,11 @@ export default function Landing() {
                 </p>
               </div>
 
-              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+              <div
+                data-aos="zoom-in-up"
+                className="w-full md:w-4/12 px-4 mr-auto ml-auto"
+              >
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -159,16 +183,22 @@ export default function Landing() {
 
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <div
+                data-aos="flip-right"
+                className="w-full md:w-4/12 ml-auto mr-auto px-4"
+              >
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
                 />
               </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
-                <div className="md:pr-12">
-                  <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+              <div
+                data-aos="flip-left"
+                className="w-full md:w-5/12 ml-auto mr-auto px-4"
+              >
+                <div className="md:pr-12 mt-4 text-center">
+                  <div className="text-gray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
                   <h3 className="text-3xl font-semibold">A growing company</h3>
@@ -177,7 +207,7 @@ export default function Landing() {
                     get started faster. You can change the text and images and
                     you're good to go.
                   </p>
-                  <ul className="list-none mt-6">
+                  <ul className="list-none mt-6 text-center">
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
@@ -280,8 +310,8 @@ export default function Landing() {
         </section>
         <section className="relative block py-24 lg:pt-0 bg-gray-900">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-              <div className="w-full lg:w-6/12 px-4">
+            <div className="flex flex-wrap justify-center lg:-mt-64 md:-mt-48">
+              <div className="w-full lg:w-6/12 px-4" data-aos="slide-up-right">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
