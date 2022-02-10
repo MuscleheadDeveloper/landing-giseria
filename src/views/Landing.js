@@ -19,11 +19,11 @@ export default function Landing() {
   return (
     <>
       <Navbar transparent />
-      <main className="relative">
+      <main>
         <div
           className="relative pt-16 flex bg-gray-900 content-center items-center justify-center"
           style={{
-            minHeight: "85vh",
+            minHeight: "75vh",
           }}
         >
           <div
@@ -74,7 +74,7 @@ export default function Landing() {
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div
-                  data-aos="fade-left"
+                  // data-aos="fade-left"
                   className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
                 >
                   <div className="px-4 py-5 flex-auto">
@@ -92,7 +92,7 @@ export default function Landing() {
 
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div
-                  data-aos="fade-up"
+                  // data-aos="fade-up"
                   className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
                 >
                   <div className="px-4 py-5 flex-auto">
@@ -110,7 +110,7 @@ export default function Landing() {
 
               <div className="pt-8 w-full md:w-4/12 px-4 text-center">
                 <div
-                  data-aos="fade-right"
+                  // data-aos="fade-right"
                   className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
                 >
                   <div className="px-4 py-5 flex-auto">
@@ -129,7 +129,7 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div
-                data-aos="zoom-in-down"
+                // data-aos="zoom-in-down"
                 className="w-full md:w-5/12 px-4 mr-auto ml-auto"
               >
                 <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
@@ -150,7 +150,7 @@ export default function Landing() {
               </div>
 
               <div
-                data-aos="zoom-in-up"
+                // data-aos="zoom-in-up"
                 className="w-full md:w-4/12 px-4 mr-auto ml-auto"
               >
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700">
@@ -184,7 +184,7 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div
-                data-aos="flip-right"
+                // data-aos="flip-right"
                 className="w-full md:w-4/12 ml-auto mr-auto px-4"
               >
                 <img
@@ -194,7 +194,7 @@ export default function Landing() {
                 />
               </div>
               <div
-                data-aos="flip-left"
+                // data-aos="flip-left"
                 className="w-full md:w-5/12 ml-auto mr-auto px-4"
               >
                 <div className="md:pr-12 mt-4 text-center">
